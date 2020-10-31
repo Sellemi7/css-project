@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: darkslateblue;
+}
+.sign{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0 ,0 ,0 ,0 ,8);
+    box-sizing: border-box;
+    padding: 40px;
+    color: black;
+    margin-top: 100px;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 14cm;
+    margin-top: 4cm;
+}
+h2{
+    text-align: center;
+}
+input[type=Text] , input[type=Password] {
+    width: 100px;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0 ,0 ,0 ,0 ,8);
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted ;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+input[type=submit]{
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background:lightblue;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+}
+input[type=submit]:hover{
+    background:  darkslateblue;
+    opacity: 0.7;
+}
+h4{
+    color: yellow;
+    text-align: center;
+    margin-top: 1cm;
+    margin-left: 1cm;
+    font-size: 50px;
+}
+.info h1{
+    color:white;
+    font-size: 50px;
+    font-family: roboto;
+    margin-left: auto;
+}
+.info h3{
+    color:yellow;
+    font-family: roboto;
+    font-size: 20px;
+}
+.social{
+    text-align: center;
+    margin-top: 130px ;
+    justify-content: space-around;
+    margin-right: 4cm;
+}
+.copy{
+    color:yellow;
+    text-align: right;
+    margin-top: 165px ;
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    display: flex;
+    color: white;
+    margin-left: 1cm;
+}
+.projet{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    font-family: cursive;
+}
+.countainer{
+    display: flex;
+    color: white;
+    margin-left: 2cm;
+}
+li{
+    color:white;
+    font-size: 20px;
+    display: inline;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: cursive;
+}
+
+li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: cursive;
+}
+footer{
+    background-color: blueviolet;
+}
+.social img{
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
